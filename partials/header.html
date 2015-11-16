@@ -1,0 +1,36 @@
+<!-- Navigation -->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <!-- aparecerá somente em dispositivos mobile -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- Nome da empresa ou titulo do site para os dispositivos mobile -->
+            <a class="navbar-brand" href="#!/">Empresa</a>
+        </div>
+        <!-- nossos menu -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <!-- cada linha é um item do menu -->
+                <li> <img src="http://placehold.it/150x100"> </li>
+                <li><a href="#!/">A empresa</a></li>
+                <li><a href="#!/produtos">Produtos</a></li>
+                <li><a href="#!/contato" >Contato</a></li>
+                <li class="dropdown active" >
+                    <a class="dropdown-toggle active" data-toggle="dropdown" aria-expanded="false" style="background-color: #FFFFFF">
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span><i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user in">
+                        <li><a href="#!/login" class="active"><i class="fa fa-user fa-fw"></i> Área administrativa</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!/"><i class="fa fa-sign-out fa-fw"></i> Sair</a></li>
+                    </ul><!-- /.dropdown-user -->
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>
